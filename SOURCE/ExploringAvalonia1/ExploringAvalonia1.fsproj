@@ -14,4 +14,9 @@
     <PackageReference Include="Avalonia.Desktop" Version="11.0.5" />
   </ItemGroup>
 
+  <ItemGroup>
+    <AvaloniaXaml Remove="MainWindow.axaml" />
+    <EmbeddedResource Include="MainWindow.axaml" />
+  </ItemGroup>
+
 </Project>
